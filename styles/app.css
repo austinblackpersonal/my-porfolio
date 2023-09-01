@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 200px;
+    align-items: center;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.header-logo {
+    height: 150px;
+    width: auto;
+    padding-left: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
