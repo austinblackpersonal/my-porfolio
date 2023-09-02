@@ -39,6 +39,7 @@
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-me-content {
@@ -83,6 +84,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .fun-fact {
@@ -92,9 +94,25 @@
     border-radius: 25%;
 }
 
+.quote-container {
+    padding: 100px;
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
 
 h2 {
-    color: black;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
     text-align: center;
     margin-top: 30px;
 }
