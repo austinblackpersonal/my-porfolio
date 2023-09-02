@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color: white;
 
 }
 
@@ -31,6 +32,75 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.about-me-content {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 500px;
+}
+
+.about-me-image {
+    margin-right: 10%;
+}
+
+.sign-up {
+    width: 150px;
+    height: 50px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 15%;
+    margin-bottom: 50px;
+}
+
+.profile-pic {
+    height: 350px;
+    width: auto;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%
+
+}
+
+
+.fun-fact-container {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fun-fact {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 25%;
+}
+
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    color: black;
 }
 
 a {
