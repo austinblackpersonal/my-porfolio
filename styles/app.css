@@ -1,12 +1,25 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
     height: 200px;
+
+}
+
+.header-content {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-links {
-    margin-left: auto;
     display: flex;
     gap: 20px;
     padding-right: 30px;
@@ -16,9 +29,8 @@
 
 .header-logo {
     height: 150px;
-    width: auto;
-    padding-left: 50px;
-
+    width: 150px;
+    border-radius: 50%;
 }
 
 a {
